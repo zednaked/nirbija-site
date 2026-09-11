@@ -1,13 +1,20 @@
 {
   "name": "nirbija",
-  "product": "mixer.",
+  "product": "mixer. instrument.",
   "lede": [
     "a row of channels.",
     "plugins live in the strip.",
-    "press play."
+    "some of them are ours."
   ],
   "pages": "https://zednaked.github.io/nirbija-site/",
-  "compat": ["linux", "pipewire", "jack", "clap", "lv2", "vst3"],
+  "compat": [
+    "linux",
+    "pipewire",
+    "jack",
+    "clap",
+    "lv2",
+    "vst3"
+  ],
   "video": {
     "youtube": "",
     "caption": "session tape"
@@ -15,8 +22,12 @@
   "shots": [
     {
       "src": "img/hero.png",
-      "alt": "Nirbija mixer: five strips, inserts, sends and a master",
+      "alt": "Nirbija: the drone synth, the sampler and the looper open over the mixer",
       "hero": true
+    },
+    {
+      "src": "img/hosting.png",
+      "alt": "Nirbija hosting Surge XT, Odin2, Calf and Airwindows in five strips"
     }
   ],
   "index": [
@@ -32,27 +43,38 @@
     },
     {
       "id": "03",
+      "name": "drone",
+      "copy": "six strings, just intonation, swell and drift."
+    },
+    {
+      "id": "04",
+      "name": "sampler",
+      "copy": "sixteen pads. record from the strip or load a file."
+    },
+    {
+      "id": "05",
       "name": "loop",
       "copy": "quantised. play against yourself."
     },
     {
-      "id": "04",
-      "name": "record",
-      "copy": "armed channels and the master."
-    },
-    {
-      "id": "05",
-      "name": "midi",
-      "copy": "jack ports, learn, keys on the strip."
-    },
-    {
       "id": "06",
+      "name": "sequence",
+      "copy": "steps, swing, scales, chance. arp and chord too."
+    },
+    {
+      "id": "07",
+      "name": "midi",
+      "copy": "jack ports, learn, keys on the strip, bluetooth le."
+    },
+    {
+      "id": "08",
       "name": "session",
       "copy": "the graph and the plugin state."
     }
   ],
   "does": [
     "host the plugins you already have",
+    "come with instruments of its own",
     "mix, send, loop, record",
     "talk to pipewire and jack",
     "keep a session"
@@ -60,7 +82,6 @@
   "doesNot": [
     "arrange clips on a timeline",
     "replace a daw",
-    "come with sounds",
     "run on windows or macos"
   ],
   "requires": [
@@ -69,9 +90,9 @@
     "the plugins you already own"
   ],
   "coming": {
-    "kicker": "no binary yet",
-    "body": "a public build is coming.",
-    "cta": "itch.io"
+    "kicker": "build it yourself for now",
+    "body": "source builds, and an appimage from packaging/dist.sh. a published binary is coming.",
+    "cta": "github"
   },
   "license": "gplv3",
   "year": 2026,
@@ -79,7 +100,7 @@
   "itch": {
     "url": "",
     "title": "Nirbija",
-    "shortText": "a mixer you play. linux. clap, lv2, vst3.",
+    "shortText": "a mixer you play. drone, sampler, looper built in. linux.",
     "classification": "tools",
     "type": "application",
     "kind": "coming soon — no build attached",
@@ -89,6 +110,8 @@
       "audio",
       "mixer",
       "plugin-host",
+      "sampler",
+      "drone",
       "clap",
       "lv2",
       "vst3",
